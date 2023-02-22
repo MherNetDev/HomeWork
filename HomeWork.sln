@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork", "HomeWork\HomeWork.csproj", "{D383C4EB-3260-4E88-85EB-BADE36E6DC08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork", "HomeWork\HomeWork.csproj", "{D383C4EB-3260-4E88-85EB-BADE36E6DC08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson2", "Lesson2\Lesson2.csproj", "{4BC4935A-C600-44DA-B39B-8A1BD1D6A276}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson2", "Lesson2\Lesson2.csproj", "{4BC4935A-C600-44DA-B39B-8A1BD1D6A276}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3", "Lesson3\Lesson3.csproj", "{EB6C20AB-B951-4041-BE71-9F4FBC1068DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson3", "Lesson3\Lesson3.csproj", "{EB6C20AB-B951-4041-BE71-9F4FBC1068DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson6", "Lesson6\Lesson6.csproj", "{C5E67640-E3D3-425E-99A3-A85A33B1E8FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{EB6C20AB-B951-4041-BE71-9F4FBC1068DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB6C20AB-B951-4041-BE71-9F4FBC1068DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB6C20AB-B951-4041-BE71-9F4FBC1068DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E67640-E3D3-425E-99A3-A85A33B1E8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E67640-E3D3-425E-99A3-A85A33B1E8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E67640-E3D3-425E-99A3-A85A33B1E8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E67640-E3D3-425E-99A3-A85A33B1E8FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
