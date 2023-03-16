@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson6", "Lesson6\Lesson6.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Name_Surname", "Name_Surname\Name_Surname.csproj", "{662BD78D-DC77-409E-B097-937DBCFD8DCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTAURANT", "RESTAURANT\RESTAURANT.csproj", "{9859234D-EC7D-40F6-A2A2-94BBC1BB90A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTAURANT", "RESTAURANT\RESTAURANT.csproj", "{9859234D-EC7D-40F6-A2A2-94BBC1BB90A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionAndInterfaces", "AbstractionAndInterfaces\AbstractionAndInterfaces.csproj", "{F8FAD7AF-DEEC-4138-B735-A12062C09811}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{9859234D-EC7D-40F6-A2A2-94BBC1BB90A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9859234D-EC7D-40F6-A2A2-94BBC1BB90A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9859234D-EC7D-40F6-A2A2-94BBC1BB90A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FAD7AF-DEEC-4138-B735-A12062C09811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FAD7AF-DEEC-4138-B735-A12062C09811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FAD7AF-DEEC-4138-B735-A12062C09811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FAD7AF-DEEC-4138-B735-A12062C09811}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
