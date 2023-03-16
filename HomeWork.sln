@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Name_Surname", "Name_Surnam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTAURANT", "RESTAURANT\RESTAURANT.csproj", "{9859234D-EC7D-40F6-A2A2-94BBC1BB90A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionAndInterfaces", "AbstractionAndInterfaces\AbstractionAndInterfaces.csproj", "{F8FAD7AF-DEEC-4138-B735-A12062C09811}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractionAndInterfaces", "AbstractionAndInterfaces\AbstractionAndInterfaces.csproj", "{F8FAD7AF-DEEC-4138-B735-A12062C09811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFileWorker_Json", "TextFileWorker_Json\TextFileWorker_Json.csproj", "{C2CC1F7F-E481-42FE-AF39-FDB46582FCED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{F8FAD7AF-DEEC-4138-B735-A12062C09811}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8FAD7AF-DEEC-4138-B735-A12062C09811}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8FAD7AF-DEEC-4138-B735-A12062C09811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CC1F7F-E481-42FE-AF39-FDB46582FCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CC1F7F-E481-42FE-AF39-FDB46582FCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CC1F7F-E481-42FE-AF39-FDB46582FCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CC1F7F-E481-42FE-AF39-FDB46582FCED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
