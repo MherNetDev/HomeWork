@@ -2,7 +2,7 @@
 
 namespace FilmBoom
 {
-    delegate void MethodDelegate();
+    delegate  void MethodDelegate();
 
     class Movies : IMovies
     {
@@ -13,13 +13,13 @@ namespace FilmBoom
         public string Plot { get; set; }
         public int choice { get; set; }
 
-       public MethodDelegate[] methods = new MethodDelegate[]
-       {
+        public  MethodDelegate[] methods = new MethodDelegate[]
+        {
             Avengers_M,
             AceVentura_M,
             RushHour_M,
-            OnePlusOne_M
-        };
+            OnePlusOne_M,
+       };
         public void DlgMeth()
         {
             methods[choice].Invoke();
@@ -68,7 +68,7 @@ namespace FilmBoom
         }
 
 
-        static void Write(string Title,int Year,string Director, string[] Actors,string Plot ) {
+       public static void Write(string Title,int Year,string Director, string[] Actors,string Plot ) {
             Console.WriteLine("Title - "+ Title+"\n"+ "Year - " + Year + "\n"+ "Director - " + Director + "\n"+ "Actors - " + "{0}", string.Join(", ", Actors) + "\n"+ "Plot - " + Plot + "\n");
         }
 

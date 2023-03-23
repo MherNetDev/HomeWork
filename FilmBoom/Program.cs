@@ -3,42 +3,26 @@ using System.IO;
 
 namespace FilmBoom
 {
-     class Program
-    {
-        public static int choice; 
 
+
+    class Program
+    {
+        public static int choice;
         static void Main(string[] args)
         {
-
-        
-            /*int choice = int.Parse(Console.ReadLine()) - 1;
-            if (true)
-            {
-
-            }
-            Movies movies = new Movies();
-            movies.choice= choice;
-            Console.Clear();
-            movies.DlgMeth();
-             Console.ReadKey();*/
-
             CallM();
-
         }
 
         static void CallM()
         {
+            Console.Clear();
             string[] filmNames = new string[] { "Avengers", "Ace Ventura", "Rush time", "1+1" };
-
             Console.WriteLine("Select a movie:");
 
-            // Console.WriteLine("1. Avengers");
-            // Console.WriteLine("2. Ace Ventura");
-            // Console.WriteLine("3. Rush time");
-            //  Console.WriteLine("4. 1+1");
-            int num  = 0;
-            Console.WriteLine("{0} {0} {0} {0}", num++);
-            Console.WriteLine( "{0}", string.Join(", ", filmNames));
+            for (int i = 0; i < filmNames.Length; i++)
+                Console.WriteLine(i+1+". " + filmNames[i]);
+
+
             Movies movies = new Movies();
             int dlgLenght = movies.methods.Length;
 
@@ -56,8 +40,16 @@ namespace FilmBoom
           movies.choice = choice;
           Console.Clear();
           movies.DlgMeth();
-          Console.ReadKey();
 
+            Console.WriteLine("Type b for going back");
+            for (; ;)
+            {
+                if (Console.ReadKey().Key == ConsoleKey.B)
+                    CallM();
+                else
+                    continue;
+            }
+           
         }
 
     }
