@@ -7,6 +7,7 @@ namespace FilmBoom
 
     class Program
     {
+        // Used (Delegates Array),(Try Catch),(Interface),(inheritance),(Recursion)
         public static int choice;
         static void Main(string[] args)
         {
